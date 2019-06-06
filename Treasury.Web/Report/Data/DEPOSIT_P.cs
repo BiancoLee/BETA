@@ -1,0 +1,212 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using Treasury.Web.Models;
+using Treasury.WebUtility;
+
+namespace Treasury.Web.Report.Data
+{
+    public class DEPOSIT_P : ReportDepositData
+    {
+        public override DataSet GetData(List<reportParm> parms)
+        {
+            var resultsTable = new DataSet();
+            string aply_No = parms.Where(x => x.key == "aply_No").FirstOrDefault()?.value ?? string.Empty;
+            string isNTD = parms.Where(x => x.key == "isNTD").FirstOrDefault()?.value ?? string.Empty;
+            string vDep_Type = parms.Where(x => x.key == "vDep_Type").FirstOrDefault()?.value ?? string.Empty;
+            SetDetail(aply_No, isNTD, vDep_Type);
+
+            //報表資料
+            List<DepositReportData> ReportDataList = new List<DepositReportData>();
+
+            using (TreasuryDBEntities db = new TreasuryDBEntities())
+            {
+                var _TAR = db.TREA_APLY_REC.AsNoTracking()
+                    .FirstOrDefault(x => x.APLY_NO == aply_No);
+
+                var ReportData = new DepositReportData();
+                int TOTAL_DEP_CNT = 0;
+
+                //取得定存明細資料
+                if (_TAR != null)
+                {
+                    //使用單號去其他存取項目檔抓取物品編號
+                    var OIAs = db.OTHER_ITEM_APLY.AsNoTracking()
+                        .Where(x => x.APLY_NO == _TAR.APLY_NO).Select(x => x.ITEM_ID).ToList();
+                    //使用物品編號去定期存單庫存資料檔抓取資料
+                    var _IDOM_DataList = db.ITEM_DEP_ORDER_M.AsNoTracking()
+                        .Where(x => OIAs.Contains(x.ITEM_ID))
+                        .Where(x => x.CURRENCY == "NTD", isNTD == "Y")
+                        .Where(x => x.CURRENCY != "NTD", isNTD == "N")
+                        .Where(x => x.DEP_TYPE == vDep_Type , vDep_Type != "0")
+                        .OrderBy(x => x.DEP_TYPE)
+                        .ThenBy(x => x.ITEM_ID)
+                        .ToList();
+
+                    if (_IDOM_DataList.Any())
+                    {
+                        //設值否=N
+                        var _IDOM_DataNList = _IDOM_DataList.Where(x => x.DEP_SET_QUALITY == "N").ToList();
+
+                        foreach (var MasterData in _IDOM_DataNList)
+                        {
+                            Decimal TOTAL_DENOMINATION = 0;
+
+                            //使用物品編號去定期存單庫存資料明細檔抓取資料
+                            var _IDOD_DataList = db.ITEM_DEP_ORDER_D.AsNoTracking()
+                                .Where(x => x.ITEM_ID == MasterData.ITEM_ID).ToList();
+
+                            List<DepositReportData> addDatas = new List<DepositReportData>();
+
+                            foreach(var DetailData in _IDOD_DataList)
+                            {
+                                ReportData = new DepositReportData()
+                                {
+                                    TYPE = "Data-N",
+                                    ITEM_ID = DetailData.ITEM_ID,
+                                    EXPIRY_DATE = TypeTransfer.dateTimeToString(MasterData.EXPIRY_DATE,false),
+                                    TRAD_PARTNERS = MasterData.TRAD_PARTNERS,
+                                    DEP_TYPE = MasterData.DEP_TYPE,
+                                    DEP_NO_B = DetailData.DEP_NO_B,
+                                    DEP_NO_E = DetailData.DEP_NO_E,
+                                    DEP_CNT = DetailData.DEP_CNT,
+                                    DENOMINATION = DetailData.DENOMINATION,
+                                };
+
+                                addDatas.Add(ReportData);
+
+                                //ReportDataList.Add(ReportData);
+
+                                TOTAL_DENOMINATION += DetailData.SUBTOTAL_DENOMINATION;
+                                TOTAL_DEP_CNT += DetailData.DEP_CNT;
+                            }
+
+                            addDatas.ForEach(x =>
+                            {
+                                x.TOTAL_DENOMINATION = TOTAL_DENOMINATION;
+                            });
+
+                            //ReportData = new DepositReportData()
+                            //{
+                            //    TYPE = "Data-N",
+                            //    EXPIRY_DATE = TypeTransfer.dateTimeToString(MasterData.EXPIRY_DATE, false),
+                            //    DEP_TYPE = MasterData.DEP_TYPE,
+                            //    TRAD_PARTNERS = MasterData.TRAD_PARTNERS,
+                            //    TOTAL_DENOMINATION = TOTAL_DENOMINATION
+                            //};
+
+                            //ReportDataList.Add(ReportData);
+                            ReportDataList.AddRange(addDatas);
+                        }
+
+                        //設值否=Y
+                        var _IDOM_DataYList = _IDOM_DataList.Where(x => x.DEP_SET_QUALITY == "Y").ToList();
+
+                        if (_IDOM_DataYList.Any()) //設質否
+                            _REC.DEP_SET_QUALITY = "Y";
+
+                        foreach (var MasterData in _IDOM_DataYList)
+                        {
+                            Decimal TOTAL_DENOMINATION = 0;
+
+                            //使用物品編號去定期存單庫存資料明細檔抓取資料
+                            var _IDOD_DataList = db.ITEM_DEP_ORDER_D.AsNoTracking()
+                                .Where(x => x.ITEM_ID == MasterData.ITEM_ID).ToList();
+
+                            List<DepositReportData> addDatas = new List<DepositReportData>();
+
+                            foreach (var DetailData in _IDOD_DataList)
+                            {
+                                ReportData = new DepositReportData()
+                                {
+                                    TYPE = "Data-Y",
+                                    ITEM_ID = DetailData.ITEM_ID,
+                                    EXPIRY_DATE = TypeTransfer.dateTimeToString(MasterData.EXPIRY_DATE, false),
+                                    TRAD_PARTNERS = MasterData.TRAD_PARTNERS,
+                                    DEP_TYPE = MasterData.DEP_TYPE,
+                                    DEP_NO_B = DetailData.DEP_NO_B,
+                                    DEP_NO_E = DetailData.DEP_NO_E,
+                                    DEP_CNT = DetailData.DEP_CNT,
+                                    DENOMINATION = DetailData.DENOMINATION,
+                                };
+
+                                addDatas.Add(ReportData);
+
+                                //ReportDataList.Add(ReportData);
+
+                                TOTAL_DENOMINATION += DetailData.SUBTOTAL_DENOMINATION;
+                            }
+
+                            addDatas.ForEach(x =>
+                            {
+                                x.TOTAL_DENOMINATION = TOTAL_DENOMINATION;
+                            });
+
+                            ReportDataList.AddRange(addDatas);
+
+                            //ReportData = new DepositReportData()
+                            //{
+                            //    TYPE = "Data-Y",
+                            //    EXPIRY_DATE = TypeTransfer.dateTimeToString(MasterData.EXPIRY_DATE, false),
+                            //    DEP_TYPE = MasterData.DEP_TYPE,
+                            //    TRAD_PARTNERS = MasterData.TRAD_PARTNERS,
+                            //    TOTAL_DENOMINATION = TOTAL_DENOMINATION
+                            //};
+
+                            //ReportDataList.Add(ReportData);
+                        }
+                    }
+                }
+
+                //取得定存交割檢核項目
+                var _Dep_Chk_Item = db.DEP_CHK_ITEM.AsNoTracking()
+                    .Where(x => x.ACCESS_TYPE == "P")
+                    .Where(x => x.IS_DISABLED == "N")
+                    .OrderBy(x => x.ITEM_ORDER).ToList();
+
+                int Item_NO = 1;//項次預設1
+                foreach(var item in _Dep_Chk_Item)
+                {
+                    string DEP_CHK_ITEM_DESC = string.Empty;
+
+                    //判斷是否有取代變數
+                    if(string.IsNullOrEmpty(item.REPLACE))
+                    {
+                        DEP_CHK_ITEM_DESC = item.DEP_CHK_ITEM_DESC;
+                    }
+                    else
+                    {
+                        //依取代變數替換內容
+                        switch(item.REPLACE)
+                        {
+                            case "P1":
+                                DEP_CHK_ITEM_DESC = item.DEP_CHK_ITEM_DESC?.Replace("@_P1_", TOTAL_DEP_CNT.ToString().formateThousand());
+                                break;
+                            default:
+                                DEP_CHK_ITEM_DESC = item.DEP_CHK_ITEM_DESC;
+                                break;
+                        }
+                    }
+
+                    ReportData = new DepositReportData()
+                    {
+                        TYPE = "Item",
+                        ISORTBY = Item_NO.ToString(),
+                        DEP_CHK_ITEM_DESC = DEP_CHK_ITEM_DESC
+                    };
+
+                    ReportDataList.Add(ReportData);
+                    Item_NO++;
+                }
+            }
+
+            resultsTable.Tables.Add(ReportDataList.ToDataTable());
+
+            SetExtensionParm();
+
+            return resultsTable;
+        }
+    }
+}
