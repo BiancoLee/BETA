@@ -1,0 +1,1246 @@
+﻿@using Treasury.Web.Enum;
+@using Treasury.WebUtility;
+@{
+    ViewBag.Title = "權責單位維護作業-主畫面";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    var opScope = ViewBag.opScope;
+
+}
+<style>
+    .customertb input[type=text] {
+        width: 110px;
+    }
+
+    .customertb td {
+        width: 80px;
+    }
+</style>
+<div class="container margin-top-5" id="main">
+    <div class="panel panel-primary">
+        <div class="panel-heading">@ViewBag.Title</div>
+        <div class="panel-body">
+            <div id="validationSummary" style="color:red;">
+            </div>
+            @if (opScope != "" && opScope != "0") //權限
+            {
+                <form id="CDCForm">
+                    <table class="customertb">
+                        <tr>
+                            <td style="width:100px">
+                                <label>權責部門 : </label>
+                            </td>
+                            <td style="width:200px">
+                                @Html.DropDownList("CDC_C_Dept", (SelectList)ViewBag.vCharge_Dept)
+                            </td>
+                            <td style="padding-left:30px;width:100px">
+                                <label>權責科別 : </label>
+                            </td>
+                            <td style="width:200px">
+                                @Html.DropDownList("CDC_C_Sect", new SelectList(new List<SelectOption>() { new SelectOption() { Text = " ", Value = " " } }, "Value", "Text"))
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>作業項目 : </label>
+                            </td>
+                            <td colspan="3">
+                                @Html.DropDownList("CDC_C_TreaItem", new SelectList(new List<SelectOption>() { new SelectOption() { Text = " ", Value = " " } }, "Value", "Text"))
+                            </td>
+                        </tr>
+                        <tr style="text-align: center ">
+                            <td colspan="4">
+                                <input type="button" class=" btn btn-primary" id="CDC_C_Search" value="查詢" />
+                                @*<input type="button" class=" btn btn-primary" id="CDC_Clear" value="清除" />*@
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <div id="CDCOpenSearchDialog" style="display:none;overflow-y:auto" role="dialog" class="myDialog">
+                    <div>
+                        <table>
+                            <tr>
+                                <td style="width:200px;">
+                                    <label>權責部門(異動後) : </label>
+                                </td>
+                                <td style="width:300px;">
+                                    @Html.DropDownList("CDC_C_Dept_B", new SelectList(new List<SelectOption>() { new SelectOption() { Text= " ",Value = " "} }, "Value", "Text"))
+                                </td>
+                                <td style="width:200px;">
+                                    <label>權責科別(異動後) : </label>
+                                </td>
+                                <td>
+                                    @Html.DropDownList("CDC_C_Sect_B", new SelectList(new List<SelectOption>() { new SelectOption() { Text = " ", Value = " " } }, "Value", "Text"))
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <input type="button" class=" btn btn-primary" id="CDC_C_Check" value="全選" />
+                                    <input type="button" class=" btn btn-primary" id="CDC_C_Cancel"style="margin-left:10px" value="全取消" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="CDCOpenSearchjqgridDiv" class="jqd" >
+
+                    </div>
+                    <div style="padding-top:10px">
+                        <input type="button" class=" btn btn-primary" id="CDC_C_Appr" value="申請覆核" />
+                        <input type="button" class=" btn btn-primary" id="CDC_C_Back" style="margin-left:10px" value="回上一頁" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    @*查詢區塊*@
+
+
+</div>
+<script type="text/javascript">
+    $(function () {
+        var opScope = '@Html.Raw(ViewBag.opScope)';
+
+        if (opScope == "" || opScope == "0") {
+            $('#validationSummary').children().remove();
+
+            var validationSummary = $('#validationSummary ul.validation-summary-errors');
+
+            if (validationSummary.length == 0) {
+                $('#validationSummary').append('<ul class="validation-summary-errors"></ul>');
+                validationSummary = $('#validationSummary ul.validation-summary-errors');
+            }
+            validationSummary.append('<li>' + '無使用權限' + '</li>');
+
+        } else {
+
+            //#region url設定
+            var CDCCurl = {};
+            CDCCurl.GetCharge_Sect = '@Url.Action("GetCharge_Sect", "CDC")';
+            CDCCurl.GetTreaItem = '@Url.Action("GetTreaItem", "CDC")';
+            CDCCurl.GetCharge_Dept_AFT = '@Url.Action("GetCharge_Dept_AFT", "CDC")';
+            CDCCurl.GetCharge_Sect_AFT = '@Url.Action("GetCharge_Sect_AFT", "CDC")';
+            CDCCurl.GetChargeDetailData = '@Url.Action("GetChargeDetailData", "CDC")';
+            CDCCurl.GetChargeCacheData = '@Url.Action("GetChargeCacheData", "CDC")';
+            CDCCurl.ChargeAppr = '@Url.Action("ChargeAppr", "CDC")';
+
+            CDCCurl.AllCheck = '@Url.Action("AllCheck", "CDC")';
+            CDCCurl.Check = '@Url.Action("Check", "CDC")';
+            //#endregion
+
+            //#region 初始設定
+            var CDC_C_DeptId = 'CDC_C_Dept'; //權責部門id
+            var CDC_C_SectId = 'CDC_C_Sect'; //權責科別id
+            var CDC_C_TreaItemId = 'CDC_C_TreaItem'; //作業項目id
+            var CDC_C_Dept_BId = 'CDC_C_Dept_B'; //權責部門(異動後) id
+            var CDC_C_Sect_BId = 'CDC_C_Sect_B'; //權責科別(異動後) id
+            //#endregion
+
+            $('input:button').each(function () {
+                var id = $(this).attr('id');
+                switch (id) {
+                    case 'CDC_C_Search':
+                        $('#' + id).on('click', function () { CDCSearch(); });
+                        break;
+                    case 'CDC_C_Check':
+                        $('#' + id).on('click', function () {
+                            $.ajax({
+                                type: "POST",
+                                data: JSON.stringify({
+                                    treaItem: $('#' + CDC_C_TreaItemId).val(),
+                                    checkType: 'Y'
+                                }),
+                                dataType: "json",
+                                url: CDCCurl.AllCheck,
+                                contentType: 'application/json',
+                            }).done(function (result) {
+                                switch ($('#' + CDC_C_TreaItemId).val()) {
+                                    case 'D1012':
+                                        CDCBillDbGrid();
+                                        break;
+                                    case 'D1024':
+                                        CDCCADbGrid();
+                                        break;
+                                    case 'D1013':
+                                        CDC_DepositDbGrid_M();
+                                        break;
+                                    case 'D1014':
+                                        CDC_EstateDbGrid();
+                                        break;
+                                    case 'D1018':
+                                        CDCItemImpDbGrid();
+                                        break;
+                                    case 'D1016':
+                                        CDCMargingDbGrid();
+                                        break;
+                                    case 'D1017':
+                                        CDCMarginpDbGrid();
+                                        break;
+                                    case 'D1008':
+                                    case 'D1009':
+                                    case 'D1010':
+                                    case 'D1011':
+                                        CDCSEALDbGrid();
+                                        break;
+                                    case 'D1015':
+                                        CDC_Stock_D_DbGrid();
+                                        break;
+                                }
+                            })
+                        });
+                        break;
+                    case 'CDC_C_Cancel':
+                        $('#' + id).on('click', function () {
+                            $.ajax({
+                                type: "POST",
+                                data: JSON.stringify({
+                                    treaItem: $('#' + CDC_C_TreaItemId).val(),
+                                    checkType: 'N'
+                                }),
+                                dataType: "json",
+                                url: CDCCurl.AllCheck,
+                                contentType: 'application/json',
+                            }).done(function (result) {
+                                switch ($('#' + CDC_C_TreaItemId).val())
+                                {
+                                    case 'D1012':
+                                        CDCBillDbGrid();
+                                        break;
+                                    case 'D1024':
+                                        CDCCADbGrid();
+                                        break;
+                                    case 'D1013':
+                                        CDC_DepositDbGrid_M();
+                                        break;
+                                    case 'D1014':
+                                        CDC_EstateDbGrid();
+                                        break;
+                                    case 'D1018':
+                                        CDCItemImpDbGrid();
+                                        break;
+                                    case 'D1016':
+                                        CDCMargingDbGrid();
+                                        break;
+                                    case 'D1017':
+                                        CDCMarginpDbGrid();
+                                        break;
+                                    case 'D1008':
+                                    case 'D1009':
+                                    case 'D1010':
+                                    case 'D1011':
+                                        CDCSEALDbGrid();
+                                        break;
+                                    case 'D1015':
+                                        CDC_Stock_D_DbGrid();
+                                        break;
+                                }
+                            })
+                        });
+                        break;
+                    case 'CDC_C_Appr':
+                        $('#' + id).on('click', function () {
+                            CDCAppr();
+                        });
+                        break;
+                    case 'CDC_C_Back':
+                        $('#' + id).on('click', function () {
+                            customerUtility.closeDialog(this);
+                        });
+                        break;
+                }
+            });
+
+            $('#' + CDC_C_DeptId).on('change', function () {
+                $('#' + CDC_C_TreaItemId + ' option').remove();
+                $('#' + CDC_C_Dept_BId + ' option').remove();
+                $('#' + CDC_C_Sect_BId + ' option').remove();
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({
+                        dept: $('#' + CDC_C_DeptId).val()
+                    }),
+                    dataType: "json",
+                    url: CDCCurl.GetCharge_Sect,
+                    contentType: 'application/json',
+                }).done(function (result) {
+                    customerUtility.addoption(CDC_C_SectId, result);
+                    if (result.length == 2 && result[1].Value == '')
+                    {
+                        $.ajax({
+                            type: "POST",
+                            data: JSON.stringify({
+                                dept: $('#' + CDC_C_DeptId).val(),
+                                sect: $('#' + CDC_C_SectId).val()
+                            }),
+                            dataType: "json",
+                            url: CDCCurl.GetTreaItem,
+                            contentType: 'application/json',
+                        }).done(function (result) {
+                            customerUtility.addoption(CDC_C_TreaItemId, result);
+                        })
+                    }
+                })
+
+            });
+
+            $('#' + CDC_C_SectId).on('change', function () {
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({
+                        dept: $('#' + CDC_C_DeptId).val(),
+                        sect: $('#' + CDC_C_SectId).val()
+                    }),
+                    dataType: "json",
+                    url: CDCCurl.GetTreaItem,
+                    contentType: 'application/json',
+                }).done(function (result) {
+                    customerUtility.addoption(CDC_C_TreaItemId, result);
+                })
+                $('#' + CDC_C_Dept_BId + ' option').remove();
+                $('#' + CDC_C_Sect_BId + ' option').remove();
+            });
+
+            $('#' + CDC_C_TreaItemId).on('change', function () {
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({
+                        treaItem: $('#' + CDC_C_TreaItemId).val()
+                    }),
+                    dataType: "json",
+                    url: CDCCurl.GetCharge_Dept_AFT,
+                    contentType: 'application/json',
+                }).done(function (result) {
+                    customerUtility.addoption(CDC_C_Dept_BId, result);
+                })
+                $('#' + CDC_C_Sect_BId + ' option').remove();
+            });
+
+            $('#' + CDC_C_Dept_BId).on('change', function () {
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({
+                        treaItem: $('#' + CDC_C_TreaItemId).val(),
+                        dept: $('#' + CDC_C_Dept_BId).val(),
+                        sect: $('#' + CDC_C_SectId).val()
+                    }),
+                    dataType: "json",
+                    url: CDCCurl.GetCharge_Sect_AFT,
+                    contentType: 'application/json',
+                }).done(function (result) {
+                    customerUtility.addoption(CDC_C_Sect_BId, result);
+                })
+            });
+
+
+            function CDCSearch() {
+                if ($('#' + CDC_C_TreaItemId).val() == null || $('#' + CDC_C_TreaItemId).val().trim() == '') {
+                    customerUtility.alert('作業項目不能為空', 'w');
+                    return false;
+                }
+                $('#' + CDC_C_Dept_BId).val('');
+                $('#' + CDC_C_Dept_BId).trigger("change");
+                //$('#' + CDC_C_Sect_BId + ' option').remove();
+
+                var itemData = GetItemData($('#' + CDC_C_TreaItemId).val());
+                $.ajax({
+                    type: 'POST',
+                    data: JSON.stringify({
+                        treaItem: $('#' + CDC_C_TreaItemId).val(),
+                        dept: $('#' + CDC_C_DeptId).val(),
+                        sect: $('#' + CDC_C_SectId).val()
+                    }),
+                    dataType: 'json',
+                    url: CDCCurl.GetChargeDetailData,
+                    contentType: 'application/json',
+                    success: function (vdata, textStatus, jqXHR) {
+                        openCDCDialog(itemData.title, itemData.openDialogWidth, 'CDCOpenSearchDialog');
+                        switch ($('#' + CDC_C_TreaItemId).val()) {
+                            case 'D1012':
+                                CDCBillDbGrid();
+                                break;
+                            case 'D1024':
+                                CDCCADbGrid();
+                                break;
+                            case 'D1013':
+                                CDC_DepositDbGrid_M();
+                                break;
+                            case 'D1014':
+                                CDC_EstateDbGrid();
+                                break;
+                            case 'D1018':
+                                CDCItemImpDbGrid();
+                                break;
+                            case 'D1016':
+                                CDCMargingDbGrid();
+                                break;
+                            case 'D1017':
+                                CDCMarginpDbGrid();
+                                break;
+                            case 'D1008':
+                            case 'D1009':
+                            case 'D1010':
+                            case 'D1011':
+                                CDCSEALDbGrid();
+                                break;
+                            case 'D1015':
+                                CDC_Stock_D_DbGrid();
+                                break;
+                        }
+                    }
+                })
+            }
+
+            function CDCAppr()
+            {
+                if ($('#' + CDC_C_Dept_BId).val().trim() == '')
+                {
+                    customerUtility.alert('無選擇變更部門', 'w');
+                    return false;
+                }
+                if ($('#' + CDC_C_Sect_BId).val().trim() == '') {
+                    customerUtility.alert('無選擇變更科別', 'w');
+                    return false;
+                }
+                $.ajax({
+                    type: "POST",
+                    data: JSON.stringify({
+                        treaItem: $('#' + CDC_C_TreaItemId).val(),
+                        dept: $('#' + CDC_C_Dept_BId).val(),
+                        sect: $('#' + CDC_C_Sect_BId).val()
+                    }),
+                    dataType: "json",
+                    url: CDCCurl.ChargeAppr,
+                    contentType: 'application/json',
+                }).done(function (result) {
+                    console.log(result);
+                    if (result.RETURN_FLAG) {
+                        customerUtility.closeDialog($('#CDC_C_Appr'));
+                    }
+                    customerUtility.alertAuto(result);
+                })
+            }
+
+            //#region 新增事件(打開Dialog)
+            function openCDCDialog(title, width, dialogId) {
+                title = title || '';
+                width = width || 'auto';
+                title += '查詢結果';
+                var dialogId = dialogId;
+                $('#' + dialogId).dialog({
+                    position: { my: "top", at: "center top", of: window },
+                    title: title,
+                    width: width,
+                    autoOpen: false,
+                    resizable: false,
+                    maxHeight: 600,
+                    closeText: '取消',
+                    close: function () {
+                        //$('#' + openSearchDetailId).children().remove();
+                    }
+                });
+                $('#' + dialogId).dialog('open');
+            }
+
+            //#region 申請項目設定檔案
+            function GetItemData(item) {
+                item = item || '';
+                var obj = {};
+                obj.url = ''; //開啟金庫物品的頁面 url
+                obj.title = null; //開啟金庫物品的頁面 Title
+                obj.openDialogWidth = 860; //開啟頁面 寬度
+
+                switch (item) {
+                    case '@Ref.TreaItemType.D1012.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1012.GetDescription()';
+                        obj.openDialogWidth = 1115;
+                        break;
+                    case '@Ref.TreaItemType.D1014.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1014.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                    case '@Ref.TreaItemType.D1008.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1008.GetDescription()';
+                        break;
+                    case '@Ref.TreaItemType.D1009.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1009.GetDescription()';
+                        break;
+                    case '@Ref.TreaItemType.D1010.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1010.GetDescription()';
+                        break;
+                    case '@Ref.TreaItemType.D1011.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1011.GetDescription()';
+                        break;
+                    case '@Ref.TreaItemType.D1015.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1015.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                    case '@Ref.TreaItemType.D1024.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1024.GetDescription()';                     
+                        obj.openDialogWidth = 1100;
+                        break;
+                    case '@Ref.TreaItemType.D1017.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1017.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                    case '@Ref.TreaItemType.D1016.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1016.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                    case '@Ref.TreaItemType.D1018.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1018.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                    case '@Ref.TreaItemType.D1013.ToString()':
+                        obj.title = '@Ref.TreaItemType.D1013.GetDescription()';
+                        obj.openDialogWidth = 1325;
+                        break;
+                }
+                return obj;
+            }
+            //#endregion
+
+            function formatterCheck(cellvalue, options, rdata) {                
+                var str = '';
+                if ((rdata.vStatus == '1') && typeof(rdata.vAftFlag) !== "undefined")
+                {
+                    str = "<div class='checkbox checkbox-info' title=' ' style='padding-top: 0px; margin-top: 0px; margin-bottom: 0px;'><input type='checkbox' id='" + options.gid + options.colModel.index + options.rowId + "' ' tage='" + options.colModel.index + "' name='" +
+                        options.gid + options.colModel.index + options.rowId + "' title =' ' " + (rdata.vAftFlag == true ? 'checked' : ' ') + " class='cbox Charge_Appr customerCheck'></div>";
+                }
+                if ((rdata.vStatus == '1') && typeof (rdata.vAFTFlag) !== "undefined")
+                {
+                    str = "<div class='checkbox checkbox-info' title=' ' style='padding-top: 0px; margin-top: 0px; margin-bottom: 0px;'><input type='checkbox' id='" + options.gid + options.colModel.index + options.rowId + "' ' tage='" + options.colModel.index + "' name='" +
+                        options.gid + options.colModel.index + options.rowId + "' title =' ' " + (rdata.vAFTFlag == true ? 'checked' : ' ') + " class='cbox Charge_Appr customerCheck'></div>";
+                }
+                return str;
+            }
+
+            function formattervCheck_Type(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                    @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("CHECK_TYPE")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                    }
+                        default:
+                    return '';
+                    }
+                }
+
+            function formattervCa_Use(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                    @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("CA_USE")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                    }
+                        default:
+                    return '';
+                }
+            }
+
+            function formattervCa_Desc(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("CA_DESC")))
+                            {
+                                <text>
+                                case '@item.Value':
+                                return '@item.Text';
+                                </text>
+                            }
+                        }
+                            default:
+                        return '';
+                    }
+            }
+
+            function formattervStock_Type(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("STOCK_TYPE")))
+                            {
+                                <text>
+                                case '@item.Value':
+                                return '@item.Text';
+                                </text>
+                            }
+                        }
+                            default:
+                        return '';
+                    }
+                }
+
+            function formattervMargin_Take_Of_Type(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("MARGIN_TAKE_OF_TYPE")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                        }
+                        default:
+                    return '';
+                }
+            }
+
+            function formattervMargin_Item(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("MARGIN_ITEM")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                        }
+                        default:
+                    return '';
+                }
+            }
+
+            function formattervMarging_Type(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("MARGING_TYPE")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                        }
+                        default:
+                    return '';
+                }
+            }
+
+            function formattervDep_Type(cellvalue, options, rdata) {               
+                switch (cellvalue) {
+                        @{
+                        foreach (var item in ((List<SelectOption>)new Treasury.Web.Service.Actual.Common().GetSysCode("DEP_TYPE")))
+                        {
+                            <text>
+                            case '@item.Value':
+                            return '@item.Text';
+                            </text>
+                        }
+                        }
+                        default:
+                    return '';
+                }
+            }
+
+            function formattervStatus(cellvalue, options, rdata) {               
+                switch (rdata.vStatus) {
+                        @{
+                            foreach (var item in ((List<SelectOption>)ViewBag.Sataus))
+                            {
+                                <text>
+                                case '@item.Value':
+                                return '@item.Text';
+                                </text>
+                            }
+                        }
+                    default:
+                return '';
+                }
+            }
+
+            function CDCBillDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人', '權責單位',
+                    '發票行庫', '類型', '字軌', '支票號碼(起)', '支票號碼(迄)',
+                    '物品編號', '狀態Id']);
+
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vBill_Issuing_Bank", index: "vBill_Issuing_Bank", width: 80, align: 'center', sortable: false });
+                colModelArray.push({ name: "vBill_Check_Type", index: "vBill_Check_Type", width: 80, align: 'center', sortable: false, formatter: formattervCheck_Type });
+                colModelArray.push({ name: "vBill_Check_No_Track", index: "vBill_Check_No_Track", width: 100, align: 'center', sortable: false });
+                colModelArray.push({ name: "vBill_Check_No_B", index: "vBill_Check_No_B", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vBill_Check_No_E", index: "vBill_Check_No_E", width: 100, align: 'center', sortable: false});
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                     function CDCOpenSearchCompleteFun(listId) {
+                         $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                             var data = $("#" + listId).getRowData(i + 1);
+                             $(this).find('td').find('.Charge_Appr').each(function () {
+                                 $(this).off('click');
+                                 $(this).on('click', function () {
+                                     $.ajax({
+                                         type: "POST",
+                                         data: JSON.stringify({
+                                             itemId : data.vItemId,
+                                             flag : $(this).prop('checked'),
+                                             treaItem: $('#' + CDC_C_TreaItemId).val()
+                                         }),
+                                         dataType: "json",
+                                         url: CDCCurl.Check,
+                                         contentType: 'application/json',
+                                     }).done(function (result) {
+                                         CDCBillDbGrid();
+                                     })
+                                 });
+                             });
+                         });
+                     },
+                    true
+                    );
+            }
+
+            function CDCCADbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人', '權責單位',
+                    '用途', '類型', '銀行', '號碼', '備註',
+                    '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPUT_Date", index: "vPUT_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAPLY_UID_Name", index: "vAPLY_UID_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center'});
+
+                colModelArray.push({ name: "vCA_Use", index: "vCA_Use", width: 80, align: 'center', sortable: false, formatter: formattervCa_Use});
+                colModelArray.push({ name: "vCA_Desc", index: "vCA_Desc", width: 80, align: 'center', sortable: false, formatter: formattervCa_Desc });
+                colModelArray.push({ name: "vCA_Bank", index: "vCA_Bank", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vCA_Number", index: "vCA_Number", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vCA_Memo", index: "vCA_Memo", width: 100, align: 'center', sortable: false });
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", width: 90, sortable: false, hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItemId,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDCCADbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDC_DepositDbGrid_M() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人', '權責單位',
+                    '幣別', '交易對象', '承作日期', '到期日',
+                    //'計息方式', '利率%',
+                    '存單類型',
+                    //'總面額',
+                    '設質',
+                    '自動轉期', '轉期後到期日', '備註',
+                    '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 90, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vCurrency", index: "vCurrency", width: 70, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vTrad_Partners", index: "vTrad_Partners", width: 150, sortable: false });
+                colModelArray.push({ name: "vCommit_Date", index: "vCommit_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vExpiry_Date", index: "vExpiry_Date", width: 90, sortable: false});
+                //colModelArray.push({ name: "vInterest_Rate_Type", index: "vInterest_Rate_Type", width: 90, sortable: false, align: 'center'});
+                //colModelArray.push({ name: "vInterest_Rate", index: "vInterest_Rate", width: 90, sortable: false, align: 'right'});
+                colModelArray.push({ name: "vDep_Type", index: "vDep_Type", width: 90, sortable: false, align: 'center', formatter: formattervDep_Type });
+                //colModelArray.push({ name: "vTotal_Denomination", index: "vTotal_Denomination", width: 100, sortable: false, align: 'right'});
+                colModelArray.push({ name: "vDep_Set_Quality", index: "vDep_Set_Quality", width: 70, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAuto_Trans", index: "vAuto_Trans", width: 90, sortable: false, align: 'center'});
+                colModelArray.push({ name: "vTrans_Expiry_Date", index: "vTrans_Expiry_Date", width: 100, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 100, sortable: false });
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItemId,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDC_DepositDbGrid_M();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDC_EstateDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人', '權責單位',
+                    '冊號',  '大樓名稱', '坐落', '備註',
+                    '狀別', '發狀日', '字號', '地號/建號', '門牌號', '流水號/編號', '備註',
+                    '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center'});
+      
+                colModelArray.push({ name: "vIB_Book_No", index: "vIB_Book_No", width: 60, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vIB_Building_Name", index: "vIB_Building_Name", width: 200, sortable: false});
+                colModelArray.push({ name: "vIB_Located", index: "vIB_Located", hidden: true });
+                colModelArray.push({ name: "vIB_Memo", index: "vIB_Memo", hidden: true });
+
+                colModelArray.push({ name: "vEstate_Form_No", index: "vEstate_Form_No", width: 90, sortable: false, align: 'center'});
+                colModelArray.push({ name: "vEstate_Date", index: "vEstate_Date", width: 90, sortable: false, align: 'center'});
+                colModelArray.push({ name: "vOwnership_Cert_No", index: "vOwnership_Cert_No", width: 90, sortable: false});
+                colModelArray.push({ name: "vLand_Building_No", index: "vLand_Building_No", width: 90, sortable: false});
+                colModelArray.push({ name: "vHouse_No", index: "vHouse_No", width: 120, sortable: false});
+                colModelArray.push({ name: "vEstate_Seq", index: "vEstate_Seq", width: 100, sortable: false});
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 100, sortable: false });
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItemId,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDC_EstateDbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDCItemImpDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['歸檔編號', '存入申請人', '權責單位', '物品名稱']);
+                //colNameArray.push('剩餘數量');
+                colNameArray = colNameArray.concat([
+                    //'金額', '預計提取日期', 
+                    '說明', '備註', '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPUT_Date", index: "vPUT_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vlItem_Id", index: "vlItem_Id", width: 100, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAPLY_UID_Name", index: "vAPLY_UID_Name", width: 80, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center'});
+                colModelArray.push({ name: "vItemImp_Name", index: "vItemImp_Name", width: 200, align: 'center', sortable: false});
+
+                //colModelArray.push({ name: "vItemImp_Remaining", index: "vItemImp_Remaining", width: 100, align: 'right', sortable: false});
+
+                //colModelArray.push({ name: "vItemImp_Amount", index: "vItemImp_Amount", width: 100, align: 'right', sortable: false });
+                //colModelArray.push({ name: "vItemImp_Expected_Date", index: "vItemImp_Expected_Date", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vItemImp_Description", index: "vItemImp_Description_Show", width: 200, align: 'center', sortable: false });
+                colModelArray.push({ name: "vItemImp_MEMO", index: "vItemImp_MEMO", width: 200, align: 'center', sortable: false});
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", width: 90, sortable: false, hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                     function CDCOpenSearchCompleteFun(listId) {
+                         $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                             var data = $("#" + listId).getRowData(i + 1);
+                             $(this).find('td').find('.Charge_Appr').each(function () {
+                                 $(this).off('click');
+                                 $(this).on('click', function () {
+                                     $.ajax({
+                                         type: "POST",
+                                         data: JSON.stringify({
+                                             itemId: data.vItemId,
+                                             flag: $(this).prop('checked'),
+                                             treaItem: $('#' + CDC_C_TreaItemId).val()
+                                         }),
+                                         dataType: "json",
+                                         url: CDCCurl.Check,
+                                         contentType: 'application/json',
+                                     }).done(function (result) {
+                                         CDCItemImpDbGrid();
+                                     })
+                                 });
+                             });
+                         });
+                     },
+                    true
+                    );
+            }
+
+            function CDCMargingDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['冊號', '存入申請人', '權責單位',
+                    '類別', '交易對象', '歸檔編號',
+                    //'金額', '職場代號',
+                    '說明', '備註',
+                    '網頁PK', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 90, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vBook_No", index: "vBook_No", width: 50, align: 'center', sortable: false, align: 'center'});
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 170, sortable: false, align: 'center'});
+
+                colModelArray.push({ name: "vMargin_Dep_Type", index: "vMargin_Dep_Type", width: 70, align: 'center', sortable: false, formatter: formattervMarging_Type });
+                colModelArray.push({ name: "vTrad_Partners", index: "vTrad_Partners", width: 250, sortable: false});
+                colModelArray.push({ name: "vlItem_Id", index: "vlItem_Id", width: 100, align: 'center', sortable: false });
+                //colModelArray.push({ name: "vAmount", index: "vAmount", width: 80, align: 'right', sortable: false});
+                //colModelArray.push({ name: "vWorkplace_Code", index: "vWorkplace_Code", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vDescription", index: "vDescription", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 100, align: 'center', sortable: false});
+
+                colModelArray.push({ name: "vItem_PK", index: "vItem_PK", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItem_PK,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDCMargingDbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDCMarginpDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['冊號', '存入申請人', '權責單位',
+                    '類別', '交易對象', '歸檔編號',
+                    //'金額',
+                    '物品名稱', '物品發行人', '質押標的號碼',
+                    //'有效期間(起)', '有效期間(迄)',
+                    '說明', '備註',
+                    '物品單號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 100, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vBook_No", index: "vBook_No", width: 60, align: 'center', sortable: false,});
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 80, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vMargin_Take_Of_Type", index: "vMargin_Take_Of_Type", width: 70, align: 'center', sortable: false, formatter: formattervMargin_Take_Of_Type });
+                colModelArray.push({ name: "vTrad_Partners", index: "vTrad_Partners", width: 100, align: 'center', sortable: false });
+                colModelArray.push({ name: "vlItem_Id", index: "vlItem_Id", width: 100, align: 'center', sortable: false });
+                //colModelArray.push({ name: "vAmount", index: "vAmount", width: 90, align: 'right', sortable: false});
+                colModelArray.push({ name: "vMargin_Item", index: "vMargin_Item", align: 'center', width: 120, sortable: false, formatter: formattervMargin_Item });
+                colModelArray.push({ name: "vMargin_Item_Issuer", index: "vMargin_Item_Issuer", align: 'center', width: 100, sortable: false });
+                colModelArray.push({ name: "vPledge_Item_No", index: "vPledge_Item_No", width: 100, align: 'center', sortable: false });
+                //colModelArray.push({ name: "vEffective_Date_B", index: "vEffective_Date_B", width: 100, align: 'center', sortable: false});
+                //colModelArray.push({ name: "vEffective_Date_E", index: "vEffective_Date_E", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vDescription", index: "vDescription", width: 100, align: 'center', sortable: false});
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 100, align: 'center', sortable: false});
+
+                colModelArray.push({ name: "vItem_Id", index: "vItem_Id", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItem_Id,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDCMarginpDbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDCSEALDbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人',
+                    '權責單位',
+                    //'權責部門', '權責科別',
+                    '印章內容', '備註',
+                    '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPUT_Date", index: "vPUT_Date", width: 90, sortable: false, align: 'center' });
+
+                colModelArray.push({ name: "vAPLY_UID_Name", index: "vAPLY_UID_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false });
+
+                colModelArray.push({ name: "vSeal_Desc", index: "vSeal_Desc", width: 150, sortable: false});
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 100, sortable: false});
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", width: 90, sortable: false, hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItemId,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDCSEALDbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+            function CDC_Stock_D_DbGrid() {
+                var colNameArray = ['動作', '狀態', '入庫日期'];
+                colNameArray = colNameArray.concat(['存入申請人', '權責單位',
+                    '股票類型', '序號前置碼', '序號(起)', '序號(迄)',
+                    //'張數', '每股金額', '單張股數', '單張面額', '面額小計', '股數小計',
+                    '備註說明',
+                    '物品編號', '狀態Id']);
+                var colModelArray = [];
+                colModelArray.push({ name: "act", index: "act", width: 45, sortable: false, formatter: formatterCheck });
+                colModelArray.push({ name: "vStatus_Show", index: "vStatus_Show", width: 90, formatter: formattervStatus, align: 'center' });
+                colModelArray.push({ name: "vPut_Date", index: "vPut_Date", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vAply_Uid_Name", index: "vAply_Uid_Name", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vCharge_Name", index: "vCharge_Name", width: 200, sortable: false, align: 'center'});
+
+                colModelArray.push({ name: "vStock_Type", index: "vStock_Type", width: 90, sortable: false, align: 'center', formatter : formattervStock_Type});
+                colModelArray.push({ name: "vStock_No_Preamble", index: "vStock_No_Preamble", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vStock_No_B", index: "vStock_No_B", width: 90, sortable: false, align: 'center' });
+                colModelArray.push({ name: "vStock_No_E", index: "vStock_No_E", width: 90, sortable: false, align: 'center' });
+                //colModelArray.push({ name: "vStock_Cnt", index: "vStock_Cnt", width: 120, sortable: false, align: 'right' });
+                //colModelArray.push({ name: "vAmount_Per_Share", index: "vAmount_Per_Share", width: 100, sortable: false, align: 'right' });
+                //colModelArray.push({ name: "vSingle_Number_Of_Shares", index: "vSingle_Number_Of_Shares", width: 100, sortable: false, align: 'right' });
+                //colModelArray.push({ name: "vDenomination", index: "vDenomination", width: 90, sortable: false, align: 'right' });
+                //colModelArray.push({ name: "vDenominationTotal", index: "vDenominationTotal", width: 90, sortable: false, align: 'center', align: 'right' });
+                //colModelArray.push({ name: "vNumberOfShares", index: "vNumberOfShares", width: 90, sortable: false, align: 'right' });
+                colModelArray.push({ name: "vMemo", index: "vMemo", width: 350, sortable: false });
+
+                colModelArray.push({ name: "vItemId", index: "vItemId", hidden: true });
+                colModelArray.push({ name: "vStatus", index: "vStatus", hidden: true });
+                jqgridCustom.createJqgridByCache(
+                    'CDCOpenSearchjqgridDiv',
+                    'CDCOpenSearchTempList',
+                    'CDCOpenSearchTempPeger',
+                    CDCCurl.GetChargeCacheData,
+                    {
+                        type: $('#' + CDC_C_TreaItemId).val()
+                    },
+                    colNameArray,
+                    colModelArray,
+                    '查詢資料',
+                    jqgridCustom.getPage('CDCOpenSearchjqgridDiv'),
+                    function CDCOpenSearchCompleteFun(listId) {
+                        $('#' + listId + ' > tbody > tr:gt(0) ').each(function (i, j) {
+                            var data = $("#" + listId).getRowData(i + 1);
+                            $(this).find('td').find('.Charge_Appr').each(function () {
+                                $(this).off('click');
+                                $(this).on('click', function () {
+                                    $.ajax({
+                                        type: "POST",
+                                        data: JSON.stringify({
+                                            itemId: data.vItemId,
+                                            flag: $(this).prop('checked'),
+                                            treaItem: $('#' + CDC_C_TreaItemId).val()
+                                        }),
+                                        dataType: "json",
+                                        url: CDCCurl.Check,
+                                        contentType: 'application/json',
+                                    }).done(function (result) {
+                                        CDC_Stock_D_DbGrid();
+                                    })
+                                });
+                            });
+                        });
+                    },
+                    true
+                    );
+            }
+
+        }
+    });
+
+
+</script>

@@ -1,0 +1,1532 @@
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NLog.config
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\CsvHelper.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Dapper.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\itextsharp.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NLog.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NPOI.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Quartz.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\WebGrease.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\CsvHelper.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NLog.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\NPOI.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Quartz.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Quartz.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\需求單\201712120291-00_金庫管理系統\source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\Treasury\Treasury\Treasury.Web\bin\SqlServerTypes\x64\msvcr120.dll
+D:\Treasury\Treasury\Treasury.Web\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Treasury\Treasury\Treasury.Web\bin\SqlServerTypes\x86\msvcr120.dll
+D:\Treasury\Treasury\Treasury.Web\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\Treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Treasury\Treasury\Treasury.Web\bin\NLog.config
+D:\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ClosedXML.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.dll
+D:\Treasury\Treasury\Treasury.Web\bin\CsvHelper.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Dapper.dll
+D:\Treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\Treasury\Treasury\Treasury.Web\bin\EntityFramework.dll
+D:\Treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\Treasury\Treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\Treasury\Treasury\Treasury.Web\bin\itextsharp.dll
+D:\Treasury\Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\Treasury\Treasury\Treasury.Web\bin\NLog.dll
+D:\Treasury\Treasury\Treasury.Web\bin\NPOI.dll
+D:\Treasury\Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\Treasury\Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\Treasury\Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Quartz.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\Treasury\Treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\Treasury\Treasury\Treasury.Web\bin\WebGrease.dll
+D:\Treasury\Treasury\Treasury.Web\bin\EnvDTE.dll
+D:\Treasury\Treasury\Treasury.Web\bin\stdole.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Treasury\Treasury\Treasury.Web\bin\EnvDTE80.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+D:\Treasury\Treasury\Treasury.Web\bin\VSLangProj.dll
+D:\Treasury\Treasury\Treasury.Web\bin\VSLangProj80.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+D:\Treasury\Treasury\Treasury.Web\bin\VSLangProj2.dll
+D:\Treasury\Treasury\Treasury.Web\bin\System.Collections.Immutable.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\ClosedXML.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\Treasury\Treasury\Treasury.Web\bin\CsvHelper.xml
+D:\Treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\Treasury\Treasury\Treasury.Web\bin\EntityFramework.xml
+D:\Treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\Treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\Treasury\Treasury\Treasury.Web\bin\NLog.xml
+D:\Treasury\Treasury\Treasury.Web\bin\NPOI.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Quartz.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\Quartz.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\Treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\Treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\Treasury\Treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache
+D:\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ApplicationInsights.config
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\csc.exe
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\vbc.exe
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NLog.config
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Treasury.Web.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ClosedXML.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\CsvHelper.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Dapper.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EntityFramework.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\FastMember.Signed.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Fubon.Orm.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Fubon.Utility.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\itextsharp.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NLog.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NPOI.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Quartz.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Renci.SshNet.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Razor.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\WebActivatorEx.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\WebGrease.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EnvDTE.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\stdole.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EnvDTE80.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\VSLangProj.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\VSLangProj80.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\VSLangProj2.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ClosedXML.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ClosedXML.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\CsvHelper.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EntityFramework.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NLog.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\NPOI.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Quartz.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Quartz.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Razor.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+C:\Users\侯蔚鑫\Documents\德義\富邦專案\金庫管理系統\Treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NLog.config
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\CsvHelper.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Dapper.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\itextsharp.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NLog.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\WebGrease.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\CsvHelper.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NLog.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\Treasury\fubon.treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+D:\Treasury\fubon.treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+D:\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NLog.config
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\CsvHelper.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Dapper.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\itextsharp.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NLog.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NPOI.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Quartz.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\WebGrease.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EnvDTE.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\stdole.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EnvDTE80.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\VSLangProj.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\VSLangProj80.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\VSLangProj2.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Collections.Immutable.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ClosedXML.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\CsvHelper.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NLog.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\NPOI.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Quartz.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Quartz.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\金庫管理系統\Treasury source\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NLog.config
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ClosedXML.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\CsvHelper.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Dapper.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EntityFramework.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\itextsharp.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NLog.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NPOI.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Quartz.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\WebGrease.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EnvDTE.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\stdole.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EnvDTE80.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\VSLangProj.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\VSLangProj80.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\VSLangProj2.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Collections.Immutable.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ClosedXML.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\CsvHelper.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EntityFramework.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NLog.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\NPOI.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Quartz.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Quartz.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\財會精算系統科\Programs\Treasury\tony.treasury\Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\Git\Fubon.Treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NLog.config
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ClosedXML.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\CsvHelper.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Dapper.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EntityFramework.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\itextsharp.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NLog.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NPOI.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Quartz.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\WebGrease.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EnvDTE.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\stdole.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EnvDTE80.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\VSLangProj.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\VSLangProj80.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\VSLangProj2.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Collections.Immutable.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ClosedXML.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\CsvHelper.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EntityFramework.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NLog.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\NPOI.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Quartz.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Quartz.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\Git\Fubon.Treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+D:\Git\Fubon.Treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+D:\Git\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\Git\Fubon.Treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\obj\Debug\RdlCompile.cache
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\obj\Debug\RdlCompile.compiled
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ApplicationInsights.config
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\csc.exe
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\vbc.exe
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NLog.config
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.dll.config
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Treasury.Web.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\AlexPilotti.FTPS.Client.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Antlr3.Runtime.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\CsvHelper.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Dapper.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\DocumentFormat.OpenXml.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\DotNetZip.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.SqlServer.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ExcelNumberFormat.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\FastMember.Signed.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Fubon.Orm.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Fubon.Utility.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\itextsharp.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\itextsharp.xmlworker.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Web.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.Common.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.Design.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WebForms.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ReportViewer.WinForms.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.SqlServer.Types.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Newtonsoft.Json.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NLog.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OOXML.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OpenXml4Net.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.OpenXmlFormats.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Renci.SshNet.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Data.EasycomClient.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.IO.FileSystem.Primitives.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.IO.Packaging.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Net.Http.Formatting.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Helpers.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.WebHost.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Mvc.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Optimization.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Razor.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Razor.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\WebActivatorEx.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\WebGrease.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EnvDTE.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.Build.Framework.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\stdole.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EnvDTE80.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.Build.Tasks.Core.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\VSLangProj.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\VSLangProj80.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.VisualStudio.GraphModel.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.MSXML.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.Build.Utilities.Core.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\VSLangProj2.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Collections.Immutable.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ClosedXML.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Common.Logging.Core.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\CsvHelper.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\DocumentFormat.OpenXml.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\DotNetZip.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\DotNetZip.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\EntityFramework.SqlServer.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ExcelNumberFormat.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.Web.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.AI.WindowsServer.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.ApplicationInsights.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\MvcSiteMapProvider.WebActivator.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Newtonsoft.Json.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NLog.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\NPOI.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Quartz.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Helpers.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Mvc.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Optimization.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Razor.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Deployment.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.WebPages.Razor.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\Antlr3.Runtime.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Net.Http.Formatting.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\System.Web.Http.WebHost.xml
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\EntityFramework.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\bin\zh-Hant\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.dll
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.pdb
+D:\財會精算系統科\Programs\Treasury\fubon.treasury\Treasury.Web\obj\Debug\Treasury.Web.csprojResolveAssemblyReference.cache

@@ -434,10 +434,10 @@ namespace Treasury.Web.Service.Actual
                 {
                     result.vAplyNo = data.APLY_NO;
                     result.vItem = treaItemTypes.FirstOrDefault(x => x.ITEM_ID == data.ITEM_ID)?.ITEM_DESC;    
-                    result.vAplyUnit = depts.FirstOrDefault(y => y.DPT_CD.Trim() == data.APLY_UNIT)?.DPT_NAME;     //1904112 Bianco 改為顯示名子
-                    result.vAplyUid = emps.FirstOrDefault(x => x.USR_ID == data.APLY_UID)?.EMP_NAME;               //1904112 Bianco 改為顯示名子
-                    //result.vAplyUnit = data.APLY_UNIT;
-                    //result.vAplyUid = data.APLY_UID;
+                    result.vAplyUnitNmae = depts.FirstOrDefault(y => y.DPT_CD.Trim() == data.APLY_UNIT)?.DPT_NAME;     //1904112 Bianco 改為顯示名子
+                    result.vAplyUidName = emps.FirstOrDefault(x => x.USR_ID == data.APLY_UID)?.EMP_NAME;               //1904112 Bianco 改為顯示名子
+                    result.vAplyUnit = data.APLY_UNIT;
+                    result.vAplyUid = data.APLY_UID;
                     result.vChargeUnit = depts.FirstOrDefault(y => y.DPT_CD.Trim() == data.APLY_UNIT)?.DPT_NAME;
                     result.vAccessType = data.ACCESS_TYPE == "P" ? "存入" : data.ACCESS_TYPE == "G" ? "取出" : ""; //存入(P) or 取出(G)
                     result.vExpectedAccessDate = TypeTransfer.dateTimeNToString(data.EXPECTED_ACCESS_DATE);

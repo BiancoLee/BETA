@@ -875,7 +875,7 @@ namespace Treasury.Web.Service.Actual
                                                     STOCK_NO_B = item.vStockNoB,  //股票序號(起)
                                                     STOCK_NO_E = item.vStockNoE,  //股票序號(迄)
                                                     STOCK_CNT = item.vStockTotal,    //股票張數
-
+                                                    SINGLE_NUMBER_OF_SHARES = item.vSingle_Number_Of_Shares, //單張股數
                                                     DENOMINATION = item.vDenomination,   //單張面額
                                                     NUMBER_OF_SHARES = item.vNumberOfShares,   //股數小計
                                                     MEMO = item.vMemo,//備註

@@ -30,6 +30,12 @@ namespace Treasury.Web.ViewModels
         public string vAplyUnit { get; set; }
 
         /// <summary>
+        /// 申請單位
+        /// </summary>
+        [Description("申請單位")]
+        public string vAplyUnitNmae { get; set; }
+
+        /// <summary>
         /// 權責部門
         /// </summary>
         [Description("權責部門")]
@@ -40,6 +46,12 @@ namespace Treasury.Web.ViewModels
         /// </summary>
         [Description("申請人員")]
         public string vAplyUid { get; set; }
+
+        /// <summary>
+        /// 申請人員
+        /// </summary>
+        [Description("申請人員")]
+        public string vAplyUidName { get; set; }
 
         /// <summary>
         /// 申請原因

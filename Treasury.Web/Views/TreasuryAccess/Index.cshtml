@@ -554,7 +554,7 @@
                 { name: "vAPLY_UID", index: "vAPLY_UID", hidden: true },
                 { name: "vAPLY_STATUS", index: "vAPLY_STATUS", hidden: true },
                 { name: "vACCESS_TYPE", index: "vACCESS_TYPE", hidden: true },
-                { name: "vItem", index: "vItem", hidden: true },
+                { name: "vItem", index: "vItem", hidden: true }
             ];
             jqgridCustom.createJqgridByCache(
                 'TAjqgridDiv1',
@@ -845,7 +845,7 @@
                                 $('#' + openSearchDetailId).html(GetAplyNoDetail() + vdata);
                                 $('#TAVMvAplyNo').text(aplyNoData.vAplyNo);
                                 $('#TAVMvItem').text(aplyNoData.vItem);
-                                customerUtility.addoption('TAVMvAplyUnit', result.Datas.Item3);
+                                customerUtility.addoption('TAVMvAplyUnit', result.Datas.Item3);                               
                                 $('#TAVMvAplyUnit').val(aplyNoData.vAplyUnit);
                                 customerUtility.addoption('TAVMvAplyUid', result.Datas.Item4);
                                 $('#TAVMvAplyUid').val(aplyNoData.vAplyUid);

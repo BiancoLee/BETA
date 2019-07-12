@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web;
 using Treasury.WebUtils;
 using Treasury.WebBO;
-using System.DirectoryServices.AccountManagement;
+//using System.DirectoryServices.AccountManagement;
 using System.Net.NetworkInformation;
 using System.Net;
 

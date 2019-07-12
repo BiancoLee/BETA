@@ -60,6 +60,9 @@
     <File Include="bin/DocumentFormat.OpenXml.dll">
       <publishTime>08/31/2018 10:09:04</publishTime>
     </File>
+    <File Include="bin/DotNetZip.dll">
+      <publishTime>05/06/2019 15:56:23</publishTime>
+    </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/31/2018 10:09:05</publishTime>
     </File>
@@ -424,7 +427,7 @@
       <publishTime>08/31/2018 10:09:09</publishTime>
     </File>
     <File Include="bin/Treasury.Web.dll">
-      <publishTime>01/08/2019 11:59:07</publishTime>
+      <publishTime>06/10/2019 10:42:38</publishTime>
     </File>
     <File Include="bin/VSLangProj.dll">
       <publishTime>07/07/2015 00:51:38</publishTime>
@@ -1258,7 +1261,7 @@
       <publishTime>08/31/2018 10:08:40</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>08/31/2018 11:56:57</publishTime>
+      <publishTime>05/06/2019 15:43:56</publishTime>
     </File>
     <File Include="quartz_jobs.config">
       <publishTime>08/31/2018 10:09:02</publishTime>
@@ -1294,58 +1297,58 @@
       <publishTime>08/31/2018 10:08:41</publishTime>
     </File>
     <File Include="Report/Rdlc/BILL.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 13:12:17</publishTime>
     </File>
     <File Include="Report/Rdlc/CA.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 11:13:12</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_CA.rdlc">
-      <publishTime>12/04/2018 17:46:21</publishTime>
+      <publishTime>05/31/2019 17:20:45</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_DEP_ORDER_M.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>05/31/2019 17:20:58</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_ESTATE.rdlc">
-      <publishTime>11/28/2018 18:09:53</publishTime>
+      <publishTime>05/31/2019 17:21:09</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_G.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>06/06/2019 11:14:29</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_ITEMIMP.rdlc">
-      <publishTime>12/04/2018 17:46:21</publishTime>
+      <publishTime>05/31/2019 17:21:23</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_MARGING.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>05/31/2019 17:21:29</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_MARGINP.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>05/31/2019 17:25:10</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_P.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>06/06/2019 11:15:57</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_SEAL.rdlc">
-      <publishTime>11/28/2018 18:25:15</publishTime>
+      <publishTime>05/31/2019 17:25:55</publishTime>
     </File>
     <File Include="Report/Rdlc/DEPOSIT_STOCK.rdlc">
-      <publishTime>12/27/2018 15:52:49</publishTime>
+      <publishTime>05/31/2019 17:27:10</publishTime>
     </File>
     <File Include="Report/Rdlc/ESTATE.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 11:16:58</publishTime>
     </File>
     <File Include="Report/Rdlc/ITEMIMP.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 11:17:47</publishTime>
     </File>
     <File Include="Report/Rdlc/MARGING.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 11:19:04</publishTime>
     </File>
     <File Include="Report/Rdlc/MARGINP.rdlc">
-      <publishTime>01/07/2019 11:17:03</publishTime>
+      <publishTime>06/06/2019 11:20:15</publishTime>
     </File>
     <File Include="Report/Rdlc/SEAL.rdlc">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>06/06/2019 11:21:11</publishTime>
     </File>
     <File Include="Report/Rdlc/STOCK.rdlc">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>06/06/2019 11:22:14</publishTime>
     </File>
     <File Include="Report/Rdlc/TestRptDataSet.xsc">
       <publishTime>08/31/2018 10:08:41</publishTime>
@@ -1357,7 +1360,7 @@
       <publishTime>12/14/2018 11:51:03</publishTime>
     </File>
     <File Include="Report/Rdlc/TREASURYREGISTRATION.rdlc">
-      <publishTime>12/04/2018 17:46:21</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Report/Rdlc/TREASURY_REGISTER.rdlc">
       <publishTime>10/25/2018 08:58:36</publishTime>
@@ -1669,7 +1672,7 @@
       <publishTime>08/31/2018 10:08:43</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>05/06/2019 15:43:55</publishTime>
     </File>
     <File Include="Views/AfterOpenTreasury/Index.cshtml">
       <publishTime>12/28/2018 14:09:56</publishTime>
@@ -1687,7 +1690,7 @@
       <publishTime>08/31/2018 10:08:43</publishTime>
     </File>
     <File Include="Views/AuthRpt/Index.cshtml">
-      <publishTime>08/31/2018 10:08:43</publishTime>
+      <publishTime>05/15/2019 15:50:25</publishTime>
     </File>
     <File Include="Views/BeforeOpenTreasury/Index.cshtml">
       <publishTime>12/25/2018 11:24:33</publishTime>
@@ -1768,7 +1771,7 @@
       <publishTime>12/13/2018 09:07:41</publishTime>
     </File>
     <File Include="Views/ItemChargeUnit/Index.cshtml">
-      <publishTime>01/07/2019 09:06:32</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/ItemImp/CDCView.cshtml">
       <publishTime>12/12/2018 15:18:09</publishTime>
@@ -1795,7 +1798,7 @@
       <publishTime>12/28/2018 16:14:18</publishTime>
     </File>
     <File Include="Views/Marginp/View.cshtml">
-      <publishTime>12/28/2018 09:47:57</publishTime>
+      <publishTime>05/06/2019 15:43:55</publishTime>
     </File>
     <File Include="Views/RoleAppr/detailRole.cshtml">
       <publishTime>08/31/2018 10:08:43</publishTime>
@@ -1804,7 +1807,7 @@
       <publishTime>08/31/2018 10:08:43</publishTime>
     </File>
     <File Include="Views/RoleMgr/detailRole.cshtml">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/RoleMgr/Index.cshtml">
       <publishTime>12/27/2018 19:11:04</publishTime>
@@ -1852,13 +1855,13 @@
       <publishTime>11/05/2018 18:53:14</publishTime>
     </File>
     <File Include="Views/Shared/_Navigation.cshtml">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/SpecifiedTimeTrea/Appr.cshtml">
       <publishTime>09/14/2018 09:04:44</publishTime>
     </File>
     <File Include="Views/SpecifiedTimeTrea/Index.cshtml">
-      <publishTime>12/25/2018 11:24:33</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/Stock/CDCView.cshtml">
       <publishTime>12/26/2018 20:13:30</publishTime>
@@ -1870,16 +1873,16 @@
       <publishTime>12/12/2018 15:18:09</publishTime>
     </File>
     <File Include="Views/TreaDefinitionAppr/Search.cshtml">
-      <publishTime>12/12/2018 15:18:09</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/TREAReviewWork/Index.cshtml">
-      <publishTime>10/31/2018 18:50:57</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/TreasuryAccess/Appr.cshtml">
       <publishTime>12/13/2018 09:07:41</publishTime>
     </File>
     <File Include="Views/TreasuryAccess/Index.cshtml">
-      <publishTime>11/27/2018 15:27:21</publishTime>
+      <publishTime>05/30/2019 11:30:50</publishTime>
     </File>
     <File Include="Views/TreasuryAccessCustody/Appr.cshtml">
       <publishTime>12/13/2018 09:07:41</publishTime>
@@ -1930,10 +1933,10 @@
       <publishTime>10/08/2018 16:46:22</publishTime>
     </File>
     <File Include="Views/TreasuryRegistration/Index.cshtml">
-      <publishTime>10/09/2018 09:16:26</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/TreasuryReport/Index.cshtml">
-      <publishTime>11/27/2018 15:27:21</publishTime>
+      <publishTime>06/04/2019 10:01:36</publishTime>
     </File>
     <File Include="Views/UserAppr/detailUser.cshtml">
       <publishTime>10/09/2018 09:16:26</publishTime>
@@ -1942,7 +1945,7 @@
       <publishTime>08/31/2018 10:08:43</publishTime>
     </File>
     <File Include="Views/UserMgr/detailUser.cshtml">
-      <publishTime>01/07/2019 11:17:04</publishTime>
+      <publishTime>02/13/2019 09:23:57</publishTime>
     </File>
     <File Include="Views/UserMgr/Index.cshtml">
       <publishTime>12/25/2018 11:24:33</publishTime>
@@ -1957,7 +1960,7 @@
       <publishTime>08/31/2018 10:08:43</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/08/2019 11:46:42</publishTime>
+      <publishTime>06/10/2019 10:42:58</publishTime>
     </File>
     <File Include="參考文件/FubonUtility.pdf">
       <publishTime>08/16/2018 09:28:54</publishTime>

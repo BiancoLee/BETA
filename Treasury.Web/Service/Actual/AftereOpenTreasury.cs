@@ -1192,12 +1192,18 @@ namespace Treasury.Web.Service.Actual
                         //新增人員等於保管科人員 狀態 => 入庫確認中
                         {
                             _TREA_APLY_REC.APLY_STATUS = custodyStatus;
+                            //190624 Bianco 退回需清空確認日期、人員
+                            _TREA_APLY_REC.CONFIRM_DT = null;
+                            _TREA_APLY_REC.CONFIRM_UID = null;
                             tempStatus = custodyStatus;
                         }
                         else
                         {
                             _TREA_APLY_REC.APLY_STATUS = nonCustodyStatus;
-                            tempStatus = nonCustodyStatus;
+                            //190624 Bianco 退回需清空確認日期、人員
+                            _TREA_APLY_REC.CONFIRM_DT = null;
+                            _TREA_APLY_REC.CONFIRM_UID = null;
+                             tempStatus = nonCustodyStatus;
                         }
 
                         break;

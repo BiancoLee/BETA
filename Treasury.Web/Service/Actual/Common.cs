@@ -60,7 +60,7 @@ namespace Treasury.Web.Service.Actual
         #region Get Date
 
         /// <summary>
-        /// get SysCode by CodeType
+        /// get SysCode
         /// </summary>
         /// <param name="codeType"></param>
         /// <param name="isAll"></param>
